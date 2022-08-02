@@ -1,4 +1,19 @@
-body{font-family: 'Lato', sans-serif;}
+
+
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+.top-banner{
+    background-image: url("developer-portfolio/top-banner.png");
+    background-repeat: no-repeat;
+}
 
 h1{
     font-size: 28px;
@@ -7,6 +22,15 @@ h1{
     color: coral;
     text-transform: uppercase;
 }
+
+.half1{
+    margin-top: 80px;
+}
+
+.half2{
+    margin-top: 40px;
+}
+
 .half-width{
     width: 40%;
     float: left;
@@ -16,4 +40,50 @@ h1{
 
 .half-width img{
     width: 100%;
+}
+
+.link-button{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    padding: 10px 24px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.dream-area{
+    background-image: url("developer-portfolio/dream-bg.png");
+    background-repeat:no-repeat;
+    background-position: right;
+}
+
+/*-- Experience Design--*/
+.tagline-highlight{
+    color: orange;
+}
+
+.Shadow{
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+}
+.experiences-area{
+    background-image: url("developer-portfolio/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#one{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(252, 182, 155),rgb(255, 70, 37));
+    border-image-slice: 1;
+}
+#two{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
